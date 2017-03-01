@@ -92,9 +92,9 @@ describe('arrays', function() {
   });
 
   it('you should be able to find duplicates in an array', function() {
-    var result = arraysAnswers.duplicates([ 1, 2, 4, 4, 3, 3, 1, 5, 3 ]);
+    var result = arraysAnswers.duplicates([ 1, 2, 4, 4, 3, 3, 1, 5, 3, 7, 9, 7, 7, 7, 7 ]);
 
-    expect(result.sort()).to.eql([1, 3, 4]);
+    expect(result.sort()).to.eql([1, 3, 4, 7]);
   });
 
   it('you should be able to square each number in an array', function() {
